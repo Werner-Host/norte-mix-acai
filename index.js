@@ -627,7 +627,7 @@ const htmlContent = `
 <body>
     <!-- Header Banner -->
     <div class="header-banner">
-        <div class="store-logo">🍃</div>
+        <img src="https://raw.githubusercontent.com/Werner-Host/norte-mix-acai/refs/heads/main/pratos/teru5r.jpeg" class="store-logo" style="object-fit: cover; padding: 0;">
         <div class="store-name">Norte Mix Açaí</div>
         <div class="store-info">
             <span>⏱️ 30-40 min</span>
@@ -641,10 +641,10 @@ const htmlContent = `
 
     <!-- Main Content -->
     <main>
-        <!-- Promo Banner -->
+        <!-- Promo Banner 
         <div class="promo-banner">
             <div class="promo-text">** A cada R$ 15,00 em compras você ganha 1 ponto! Acumule e troque por produtos! **</div>
-        </div>
+        </div> -->
 
         <!-- Products Container -->
         <div id="products-container"></div>
@@ -720,7 +720,7 @@ const htmlContent = `
 
         const products = [
             // Comidas Típicas
-            { id: 1, name: "Tacacá", description: "Caldo de tucupi com camarão seco, jambu e goma de tapioca", price: 25.00, category: "Comidas Típicas", image: "https://picsum.photos/seed/tacaca/150/150", extras: commonExtras },
+            { id: 1, name: "Tacacá", description: "Caldo de tucupi com camarão seco, jambu e goma de tapioca", price: 25.00, category: "Comidas Típicas", image: "https://raw.githubusercontent.com/Werner-Host/norte-mix-acai/refs/heads/main/pratos/7jwup.jpeg", extras: commonExtras },
             { id: 2, name: "Vatapá", description: "Creme com leite de coco, azeite de dendê, camarões e arroz", price: 28.00, category: "Comidas Típicas", image: "https://picsum.photos/seed/vatapa/150/150", extras: commonExtras },
             { id: 3, name: "Maniçoba", description: "Folhas de mandioca triturada, carne de porco, calabresa e defumados", price: 35.00, category: "Comidas Típicas", image: "https://picsum.photos/seed/manicoba/150/150", extras: commonExtras },
             { id: 4, name: "Vataçoba", description: "Combinação de vatapá e maniçoba com arroz", price: 40.00, category: "Comidas Típicas", image: "https://picsum.photos/seed/vatacoba/150/150", extras: commonExtras },
